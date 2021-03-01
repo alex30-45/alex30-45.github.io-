@@ -1,0 +1,477 @@
+@import "./reset.css";
+@import "./text style.css";
+@import "./btn style.css";
+@import "./settings.css";
+@import "./slider.css";
+@import "./nav.css";
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.menu{
+    text-transform: uppercase;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 4;
+    background-color: #FFFFFF;
+    border-bottom: solid rgba(116, 116, 116, 0.377) 1px;
+}
+.menu_logo-text{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 8vh;
+    width: 20vh;
+}
+main{
+    margin-top: 10vh;
+}
+.home_video-logo{
+    position: relative;
+    background-color: #000000;
+    min-width: 100%;
+    max-height: 69vh;
+    overflow:hidden;
+    z-index: -2;
+}
+video{  
+    position: relative;
+    z-index:-1;
+    min-width:100%;
+    max-height: 69vh;
+    overflow:hidden;
+}
+.home .img{
+    width: 50vh;
+    margin-top: -35%;
+    margin-left: 43%;
+}
+.home .content{
+    text-align: center;
+    margin-top: 7vh;
+}
+.home_text-photo{
+    display: flex;
+    margin-top: 5vh;
+}
+.home_photo{
+    flex: 1;
+    background-image: url(../media/photo/s.home.webp);
+    background-size: cover;
+    margin-right: 1vh;
+}
+.home_text-photo .home_text{
+    flex: 1;
+    background-color: #ccccff38;
+    margin-left: 1vh;
+}
+.text-inside{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.about-us .about-us_blank-spacer{
+    height: 100%;
+    background-image: url(../media/photo/Розарий+собранный\ 8.webp);
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+.cor{
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 100%;
+    width: 100%;
+}
+.conteiner p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+    padding-top: 15vh;
+    width: 38vh;
+}
+.about-us .about-us_first-text{
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.about-us_second-text{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border-bottom: solid #FF0000 1px;
+}
+.text-left{
+    flex: 1;
+    text-align: left;
+    margin-right: 4vh;
+}
+.text-right{
+    flex: 1;
+    text-align: left;
+    margin-left: 4vh;
+}
+.about-us_text-photo{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 3.5vh;
+    margin-bottom: 15vh;
+}
+
+.about-us_text-photo img{
+    height: 30vh;
+    width: 32vh;
+    margin-bottom: 1vh;
+}
+.product_text-slider{
+background-color: #CCCCFF38;
+}
+
+.product_text-slider h1{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.product_text-after-slider, .product_technical-features, .projects-carried-out, .our-contacts, .certificates .certificates{
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 5vh;
+}
+ul{
+    padding: 0;
+    margin-left: 2vh;
+}
+.product_technical-features li:not(:last-child){
+    border-bottom: solid #FF0000 1px;
+    margin-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+a.scroll{
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
+}
+.projects-carried-out{
+    margin-top: 10vh;
+}
+.projects{
+    display: grid;
+}
+.project-1{
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0.9;
+    background-image: url(../media/photo/IMG_2808.png);
+}
+.project-2{
+    grid-column: 1;
+    grid-row: 2;
+    opacity: 0.9;
+    background-image: url(../media/photo/IMG_2780.png);
+}
+.project-3{
+    grid-column: 2;
+    grid-row: 1;
+    opacity: 0.9;
+    background-image: url(../media/photo/DSC09606+.png);
+}
+.project-4{
+    grid-column: 2;
+    grid-row: 2;
+    opacity: 0.9;
+    background-image: url(../media/photo/БТК_базилик.png);
+}
+.project-5{
+    grid-column: 3;
+    grid-row: 1;
+    opacity: 0.9;
+    background-image: url(../media/photo/БТК_катарантус.png);
+}
+.project-6{ 
+    grid-column: 3;
+    grid-row: 2;
+    opacity: 0.9;
+    background-image: url(../media/photo/IMG_8751.png);
+}
+.project-1,.project-2,.project-3,.project-4,.project-5,.project-6{
+    overflow: hidden;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    border-radius: 7px;
+    height: 24vh;
+    width: 37vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(253, 0, 0);
+}
+.project-1:hover,.project-2:hover,.project-3:hover,.project-4:hover,.project-5:hover,.project-6:hover{
+    opacity: 1;
+    transition: opacity 124ms, transform 124ms linear;
+    transform: scale(1.1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.projects p{
+    height: 24vh;
+    width: 37vh;
+    margin-top: 0;
+    padding-top: 8vh;
+    text-align: center;
+    font-size: 3.5vh;
+    line-height: 3.5vh;
+    color: #FFFFFF;
+}
+.projects p:hover{
+    transition: opacity 124ms, transform 124ms linear;
+    transform: scale(1.1);
+    color: rgb(80, 253, 0);
+}
+
+.projects .project{
+    display: block;
+    height: 25vh;
+    width: 37vh;
+    margin-left: 0;
+}
+.certificate img{
+    height: 60vh;
+    width: 45vh;
+}
+.contacts-form{
+    display: flex;
+}
+.contacts{
+    flex-grow: 3;
+    text-align: left;
+    background-color: #CCCCFF;
+}
+.contacts h2{
+    padding-top: 7vh;
+}
+.contacts li{
+    margin: 5vh;
+    margin-left: 10%;
+    list-style: none;
+}
+form{
+    flex-grow: 1;
+}
+input { 
+    display: inline-block; 
+    margin: 1vh auto; 
+    border: 0.2vh solid #eee; 
+    padding: 1vh 2vh; 
+    font-size: 1.6vh;
+    height: 3vh;
+    width: 40vh;
+
+} 
+textarea { 
+    display: inline-block; 
+    margin: 1vh auto; 
+    border: 2px solid #eee; 
+    padding: 1vh 2vh; 
+    font-size: 1.6vh;
+    height: 11vh;
+    width: 40vh;
+    
+}
+.submit{
+    height: 7vh;
+    width: 15vh;
+}
+.grass{
+    height: 6vh;
+    background-image: url(../media/photo/grass.webp);
+    background-color: #CCCCFF;
+}
+.icon{
+    height: 15vh;
+}
+.icon_s{
+    height: 5vh;
+}
+@media screen and (max-width: 1160px){
+    .home_video-logo{
+        display: none;
+    }
+    .home_text{
+        display: none;
+    }
+    .conteiner p {
+        font-weight: 100;
+        font-size: 2vh;
+        width: 25vh;
+    }
+    .about-us_second-text{
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .text-left{
+        margin-right: 0;
+    }
+    .text-right{
+        margin-left: 0;
+    }
+    .about-us_text-photo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .about-us_text-photo img{
+        height: 28vh;
+        width: 30vh;
+        margin-left: 20%;
+        margin-bottom: 2px;
+    }
+    .product_text-slider h1{
+        padding: 6vh;
+    }
+    .product_text-after-slider, .product_technical-features, .projects-carried-out, .our-contacts, .certificates .certificates{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0vh;
+        padding-bottom: 0vh;
+    }
+    .projects-carried-out{
+        margin-top: 10vh;
+    }
+    .certificate{
+        text-align: center;
+    }
+    .project-1{
+        grid-column: 1;
+        grid-row: 1;
+        opacity: 0.9;
+        background-image: url(../../media/photo/IMG_2808.png);
+    }
+    .project-2{
+        grid-column: 1;
+        grid-row: 2;
+        opacity: 0.9;
+        background-image: url(../../media/photo/IMG_2780.png);
+    }
+    .project-3{
+        grid-column: 2;
+        grid-row: 1;
+        opacity: 0.9;
+        background-image: url(../../media/photo/DSC09606+.png);
+    }
+    .project-4{
+        grid-column: 2;
+        grid-row: 2;
+        opacity: 0.9;
+        background-image: url(../../media/photo/БТК_базилик.png);
+    }
+    .project-5{
+        grid-column: 2;
+        grid-row: 3;
+        opacity: 0.9;
+        background-image: url(../../media/photo/БТК_катарантус.png);
+    }
+    .project-6{ 
+        grid-column: 1;
+        grid-row: 3;
+        opacity: 0.9;
+        background-image: url(../../media/photo/IMG_8751.png);
+    }
+    .project-1,.project-2,.project-3,.project-4,.project-5,.project-6{
+        height: 15vh;
+        width: 28vh;
+    }
+    .projects p{
+        height: 15vh;
+        width: 28vh;
+        padding-top: 4vh;
+        font-size: 3vh;
+        line-height: 3vh;
+        color: #FFFFFF;
+    }
+    .projects .project{
+        height: 15vh;
+        width: 28vh;
+    }
+    .certificate img{
+        width: 45vh;
+    }
+    .contacts{
+        flex-grow: 1;
+        text-align: center;
+    }
+    .contacts li{
+        margin: 4vh;
+        margin-left: 2%;
+    }
+    .contacts-form{
+    flex-direction: column;
+    }
+    input {  
+        font-size: 1vh; 
+    } 
+    textarea { 
+        font-size: 1vh;
+    }
+}
+    @media screen and (max-width: 570px){
+        .project-1{
+            grid-column: 1;
+            grid-row: 1;
+            opacity: 0.9;
+            background-image: url(../../media/photo/IMG_2808.png);
+        }
+        .project-2{
+            grid-column: 1;
+            grid-row: 2;
+            opacity: 0.9;
+            background-image: url(../../media/photo/IMG_2780.png);
+        }
+        .project-3{
+            grid-column: 1;
+            grid-row: 3;
+            opacity: 0.9;
+            background-image: url(../../media/photo/DSC09606+.png);
+        }
+        .project-4{
+            grid-column: 1;
+            grid-row: 4;
+            opacity: 0.9;
+            background-image: url(../../media/photo/БТК_базилик.png);
+        }
+        .project-5{
+            grid-column: 1;
+            grid-row: 5;
+            opacity: 0.9;
+            background-image: url(../../media/photo/БТК_катарантус.png);
+        }
+        .project-6{ 
+            grid-column: 1;
+            grid-row: 6;
+            opacity: 0.9;
+            background-image: url(../../media/photo/IMG_8751.png);
+        }
+        .project-1,.project-2,.project-3,.project-4,.project-5,.project-6{
+            margin: auto;
+            margin-bottom: 1vh;
+        }
+    }

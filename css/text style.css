@@ -1,0 +1,106 @@
+body{
+    font-family: "Roboto-regular", sans-serif;
+}
+h1{
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: center;
+    color: rgb(37, 36, 36);
+    font-size: 3.5vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 6vh;
+    margin-top: 5vh;
+}
+h2{
+    font-family: "Montseratt-bold", sans-serif;
+    color: rgb(201, 16, 16);
+    text-align: left;
+    font-size: 3vh;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 5vh;
+    line-height: 3vh;
+}
+.heading{/*h1*/
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: center;
+    color: rgb(37, 36, 36);
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 6vh;
+}
+h3{
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: left;
+    color: rgb(46, 44, 44);
+    font-size: 2.5vh;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 4vh;
+    line-height: 4vh;
+}
+
+.content{ /*h3*/
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: left;
+    color: rgb(46, 44, 44);
+    font-size: 2.5vh;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 4vh;
+    line-height: 4vh;
+}
+p{
+    font-family: "Roboto-regular", serif;
+    text-align: left;
+    color: rgb(56, 50, 50);
+    font-size: 2vh;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    line-height: 3vh;
+}
+.certificate p{
+    font-family: "Roboto-regular", serif;
+    text-align: center;
+    margin: auto;
+}
+em{
+    font-family: "Roboto-regular", serif;
+    color: rgb(20, 19, 19);
+    font-weight: 700;
+}
+a{
+    font-family: "Montserrat-Regular", sans-serif;
+    margin-left: 3.6vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: rgb(17, 138, 27);
+}
+
+.nav li{
+    color:#000000;
+    font-size: 1.4vh;
+    font-weight: bolder;
+    letter-spacing: 0.3px;
+}
+li{
+    color: rgb(56, 50, 50);
+    font-size: 2vh;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 1vh;
+    line-height: 4vh;
+}
+@media screen and (max-width: 951px){
+    .heading{/*h1*/
+        font-size: 2vh;
+        line-height: 2.5vh;
+    }
+}

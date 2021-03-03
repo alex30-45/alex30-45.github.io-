@@ -1,0 +1,106 @@
+body{
+    font-family: "Roboto-regular", sans-serif;
+}
+h1{
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: center;
+    color: rgb(37, 36, 36);
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 6;
+    margin-top: 5vh;
+}
+h2{
+    font-family: "Montseratt-bold", sans-serif;
+    color: rgb(201, 16, 16);
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 2vh;
+    line-height: 3;
+}
+.heading{/*h1*/
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: center;
+    color: rgb(37, 36, 36);
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 3;
+}
+h3{
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: left;
+    color: rgb(46, 44, 44);
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 4em;
+    line-height: 4;
+}
+
+.content{ /*h3*/
+    font-family: "Montseratt-bold", sans-serif;
+    text-align: left;
+    color: rgb(46, 44, 44);
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 2vh;
+    line-height: 2;
+}
+p{
+    font-family: "Roboto-regular", serif;
+    text-align: left;
+    color: rgb(56, 50, 50);
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 0.1;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    line-height: 1.5;
+}
+.certificate p{
+    font-family: "Roboto-regular", serif;
+    text-align: center;
+    margin: auto;
+}
+em{
+    font-family: "Roboto-regular", serif;
+    color: rgb(20, 19, 19);
+    font-weight: 700;
+}
+a{
+    font-family: "Montserrat-Regular", sans-serif;
+    margin-left: 3.6vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: rgb(17, 138, 27);
+}
+
+.nav li{
+    color:#000000;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 0.3px;
+}
+li{
+    margin-bottom: 1vh;
+    line-height: 1.5;
+    font-size: 1em;
+}
+.conteiner p{
+    letter-spacing: 0.5;
+}
+@media screen and (max-width: 951px){
+    .heading{/*h1*/
+        font-size: 2em;
+        line-height: 2.5;
+    }
+}

@@ -1,0 +1,65 @@
+.button{
+    border: solid rgb(0, 0, 0) 2px;
+    color: rgb(0, 0, 0);
+    padding: 1vh;
+    background-color: #ffffff00;
+    text-decoration: none;
+}
+.button:hover{
+    border: solid #61a375 2px;
+    color: #fff;
+    background: #61a375;
+    transition: 0.3s;
+}
+.dropbtn {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 15px;
+    text-align: left;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-1, .dropdown-2, .dropdown-3, .dropdown-4 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+}
+.dropdown-1{
+    width: 15vw;
+}
+.dropdown-2{
+    width: 25vw;
+}
+.dropdown-3{
+    width: 17vw;
+}
+.dropdown-4{
+    width: 10vw;
+}
+.dropdown-1 a, .dropdown-2 a, .dropdown-3 a, .dropdown-4 a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.dropdown-1 p, .dropdown-2 p, .dropdown-3 p, .dropdown-4 p{ 
+    margin-left: -0.8vw;
+    margin-right: -0.8vw;
+}
+.dropdown-1 a:not(:last-child), .dropdown-2 a:not(:last-child), .dropdown-3 a:not(:last-child), .dropdown-4 a:not(:last-child){
+    border-bottom: solid #61a375 2px;
+}
+.dropdown-1 a:hover, .dropdown-2 a:hover, .dropdown-3 a:hover, .dropdown-4 a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-1,.dropdown:hover .dropdown-2,.dropdown:hover .dropdown-3,.dropdown:hover .dropdown-4 {display: block;}

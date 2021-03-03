@@ -1,0 +1,101 @@
+@import "./reset.css";
+@import "./nav.css";
+@import "./text\ styles.css";
+@import "./button.css";
+@import "./helios_cond.css";
+@import "./slider.css";
+
+body{
+    overflow-x: hidden;
+}
+header{
+    z-index: 20;
+}
+main{
+    padding-top: 5vw;
+}
+h3{
+    margin-top: -2vh;
+    margin-bottom: 12vh;
+}
+section{
+    display: flex;
+    margin-top: 5vh;
+}
+section .text{
+    flex: 3;
+    background-color: #f5f5f5;
+}
+.section-1 img{
+    flex: 2;
+    width: 30vw;
+}
+.section-1 .text-inside{
+    margin-top: 2vw;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-bottom: 2vw;
+}
+.section-1 p{
+    margin-bottom: 2vw;
+    padding-top: 2vw;
+}
+.section-2 .text-inside p, .section-2 .text-inside a{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.text-inside h2{
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.section-2{
+    margin-top: 5vw;
+}
+.section-2 .text{
+    background-color: #fff;
+}
+.section-2 img{
+    height: 18vh;
+    margin-top: 2vw;
+}
+.section-2 .img{
+    flex-grow: 1;
+    text-align: right;
+    margin-left: -20vh;
+}
+.downloads{
+    height: 90px;
+    background-color: #f5f5f5;
+}
+.downloads a{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 30px;
+}
+.downloads a:hover{
+    color: #61a375;
+}
+.downloads H2{
+    color: #2a2a2a;
+    margin-top: 15px;
+    margin-left: 3vw;
+}
+.downloads ul{
+    text-align: right;
+    display: flex;
+    flex-grow: 1;
+    border-top: solid #fff 10px;
+    margin-top: 0.5vw;
+}
+.downloads li{
+    display: flex;  
+    text-align: center;
+    margin-right: auto;
+}
+.downloads img{
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+}

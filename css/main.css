@@ -1,0 +1,188 @@
+@import "./reset.css";
+@import "./text.css";
+@import "./helios_cond.css";
+
+.main_img{
+    background-color: rgb(0, 229, 255);
+    height: 40vw;
+    width: 99.1vw;
+}
+.about_us{
+    display: flex;
+    margin-top: 2vw;
+}
+.about_us_img{
+    flex-grow: 1;
+    background-color: rgb(0, 229, 255);
+    height: 30vw;
+    width: 30vw;
+    margin-left: 17.5vw;
+}
+.about_us_text{
+    flex-grow: 1;
+    margin-right: 15vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.about_us_text_color{
+    color: #fcb500;
+}
+.program{
+    margin-top: 2vw;
+
+}
+.program h2{
+    color: rgb(7, 134, 177);
+    text-align: center;
+    font-size: 3vw;
+}
+.program p{
+    text-align: center;
+    letter-spacing: 0.5vw;
+}
+.program_blocks{
+    margin-top: 6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.program_blocks_1{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+}
+.program_blocks_1 img{
+    height: 5vw;
+    width: 5vw;
+}
+.program_blocks_2{
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.program_blocks_2 img{
+    height: 5vw;
+    width: 5vw;
+}
+.program_blocks_3{
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+}
+.program_blocks_3 img{
+    height: 5vw;
+    width: 5vw;
+}
+.program_blocks_3 h5, .program_blocks_2 h5, .program_blocks_1 h5{
+    margin-left: 1.5vw;
+    margin-bottom: 0.5vw;
+    color: rgb(7, 134, 177);
+}
+.program_blocks_3 p, .program_blocks_2 p, .program_blocks_1 p{
+    text-align: left;
+    letter-spacing: 0.1vw;
+    margin-left: 1.5vw;
+    line-height: 1vw;
+}
+.for_you{
+    margin-top: 2vw;
+}
+.for_you img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 1vw;
+}
+.for_you h2{
+    text-align: center;
+    margin-bottom: 5vw;
+    color: rgb(7, 134, 177);
+}
+.for_you ul{
+    margin-left: 20vw;
+}
+.for_you li{
+    display: flex;
+}
+.for_you p{
+    font-weight: 700;
+    margin-bottom: 1.3vw;
+}
+.accordion {
+    background-color: #2980b9;
+    color: #2c2a2a;
+    cursor: pointer;
+    padding: 0.9vw;
+    padding-left: 2vw;
+    width: 100%;
+    border: solid #2980b9 1px;
+    border-radius: 1.5vw;
+    text-align: left;
+    outline: none;
+    font-size: 1vw;
+    transition: 0.4s;
+    width: 100vw;
+    margin-top: 0.5vw;
+    width: 50vw;
+    margin-left: 25vw;
+  }
+  .questions h2{
+    text-align: center;
+    color: rgb(7, 134, 177);
+    margin-bottom: 2vw;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    padding-left: 2vw;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 50vw;
+    margin-left: 25vw;
+  }
+.footer{
+    margin-top: 2vw;
+    height: 20vw;
+    background-color: rgb(55, 52, 52);
+    color: rgb(226, 213, 213);
+}
+.footer h6{
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    padding-top: 2vw;
+    text-align: center;
+}
+.ul_li{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+ ul{
+    flex: 0 0 30vw;
+}
+.ul_li li{
+    margin-top: 0.5vw;
+    margin-left: 12.5vw;
+    font-size: 1vw;
+    font-weight: 100;
+    color: rgb(226, 213, 213);
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 0.6vw;
+}
+.inst{
+    height: 5vw;
+    background-color: rgb(0, 0, 0);
+}

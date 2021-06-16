@@ -106,3 +106,33 @@ footer .contacts img {
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
+@media screen and (max-width: 481px) {
+    .payment p {
+        font-size: 2.5vw;
+    }
+    .pay_and_sign_up {
+        font-size: 3vw;
+    }
+    .footer h6 {
+        font-size: 4vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .footer li {
+        font-size: 2.5vw;
+        margin-left: 1vw;
+    }
+    .footer .ul {
+        margin-left: -20vw;
+    }
+    .footer .contacts {
+        width: 30vw;
+        margin-right: -10vw;
+    }
+    .footer .contacts img {
+        width: 7vw;
+    }
+    .inst img {
+        width: 10vw;
+    }
+}

@@ -38,6 +38,9 @@
     height: 20vw;
     margin-left: 30vw;
 }
+.main a {
+    font-size: 1vw;
+}
 
 .about_us {
     display: flex;
